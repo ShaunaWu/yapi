@@ -4,7 +4,8 @@
   "description": "YAPI",
   "main": "server/app.js",
   "scripts": {
-    "dev-copy-icon": "cp -r static/iconfont ./",
+    "icon-linux": "cp -r static/iconfont ./",
+    "dev-copy-icon": "echo 'This had update'",
     "dev-server": " nodemon server/app.js dev -L",
     "install-server": " node server/install.js",
     "dev-client": "npm run dev-copy-icon && ykit s -p 4000",
@@ -149,7 +150,7 @@
     "style-loader": "^0.18.2",
     "table-resolver": "^3.2.0",
     "validate-commit-msg": "^2.12.2",
-    "webpack": "^2.2.0",
+    "webpack": "^2.7.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-node-externals": "^1.6.0",
     "ydoc-plugin-img-view": "^1.0.1",
